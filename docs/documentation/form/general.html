@@ -1,8 +1,8 @@
 ---
-title: Form controls
+title: 表单控件（Form controls）
 layout: documentation
-doc-tab: form
-doc-subtab: general
+doc-tab: 表单
+doc-subtab: 通用
 breadcrumb:
 - home
 - documentation
@@ -814,10 +814,10 @@ variables_keys:
 
 <div class="content">
   <p>
-    Bulma supports the following native <strong>HTML form elements</strong>: <code>&lt;form&gt;</code> <code>&lt;button&gt;</code> <code>&lt;input&gt;</code> <code>&lt;textarea&gt;</code> and <code>&lt;label&gt;</code>.
+    Bulma 支持下列原生 <strong>HTML 表单元素</strong>： <code>&lt;form&gt;</code> <code>&lt;button&gt;</code> <code>&lt;input&gt;</code> <code>&lt;textarea&gt;</code> 和 <code>&lt;label&gt;</code>.
   </p>
   <p>
-    The following CSS <strong>classes</strong> are supported:
+    下列 CSS <strong>类</strong>也是支持的：
   </p>
   <ul>
     <li><code>label</code></li>
@@ -833,37 +833,37 @@ variables_keys:
 
 <div class="content">
   <p>
-    To maintain an evenly balanced design, Bulma provides a very useful <code>control</code> container with which you can <strong>wrap</strong> the form controls.
+    要保持平衡均衡的设计，Bulma 提供了非常有用的 <code>control</code> 容器，使用它您可以<strong>包裹</strong>表单控件。
     <br>
-    When combining several controls in a <strong>form</strong>, use the <code>field</code> class as a <strong>container</strong>, to keep the spacing consistent.
+    组合一些控件在一个<strong>表单</strong>里的时候，使用 <code>field</code> 类做为一个<strong>容器</strong>，来保持间距一致。
   </p>
 </div>
 
-{% include elements/anchor.html name="Complete form example" %}
+{% include elements/anchor.html name="完整表单示例" %}
 
 {% include elements/snippet.html content=example more=true %}
 
 <div class="content">
   <p>
-    For the best results using Bulma, it's recommended to use the <code>control</code> element as often as possible.
+    使用 Bulma 的最好结果，就是推荐尽可能多的使用 <code>control</code> 元素。
   </p>
 </div>
 
 {% include elements/anchor.html name="Form field" %}
 
 <div class="content">
-  <p>The <code>field</code> container is a simple container for:</p>
+  <p><code>field</code> 容器是一个简单的容器：</p>
   <ul>
-    <li>a text <code>label</code></li>
-    <li>a form <code>control</code></li>
-    <li>an optional <code>help</code>text</li>
+    <li>一个文本 <code>label</code></li>
+    <li>一个表单 <code>control</code></li>
+    <li>一个可选的 <code>help</code>文本</li>
   </ul>
 </div>
 
 {% include elements/snippet.html content=field_example %}
 
 <div class="content">
-  <p>This container allows form fields to be <strong>spaced consistently</strong>.</p>
+  <p>这个容器使表单字段<strong>间距一致</strong>。</p>
 </div>
 
 {% include elements/snippet.html content=fields_example %}
@@ -872,7 +872,7 @@ variables_keys:
 
 <div class="content">
   <p>
-    The Bulma <code>control</code> is a versatile <strong>block</strong> container meant to <strong>enhance single form controls</strong>. Because it has the same height as the element that it wraps, it can <strong class="has-text-danger">only contain</strong> the following Bulma elements:
+    Bulma 的 <code>control</code> 是一个多功能 <strong>block</strong> 容器，也就是说<strong>增强了单个表单控件</strong>。因为它跟它包裹的元素有相同的高度，它可以<strong class="has-text-danger">只包含</strong>下列 Bulma 元素：
   </p>
 
   <ul>
@@ -882,20 +882,20 @@ variables_keys:
     <li><code>icon</code></li>
   </ul>
   <p>
-    This container gives the ability to:
+    这个容器具备如下能力：
   </p>
   <ul>
     <li>
-      keep the <strong>spacing</strong> consistent
+      保持一致<strong>间距</strong>
     </li>
     <li>
-      combine form controls into a <strong>group</strong>
+      组合表单控件为一个<strong>组</strong>
     </li>
     <li>
-      combine form controls into a <strong>list</strong>
+      组合表单控件为一个<strong>列表</strong>
     </li>
     <li>
-      append and prepend <strong>icons</strong> to a form control
+      为一个表单控件附加或者前加<strong>图标</strong>
     </li>
   </ul>
 </div>
@@ -907,35 +907,35 @@ variables_keys:
 {% include elements/snippet.html content=control_button_example %}
 
 <!-- Font Awesome Icons -->
-{% include elements/anchor.html name="With icons" %}
+{% include elements/anchor.html name="带图标" %}
 
 <div class="content">
-  <p>You can append one of 2 <strong>modifiers</strong> on a control:</p>
+  <p>您可以添加两个<strong>修饰符</strong>之一到控件：</p>
   <ul>
     <li>
       <code>has-icons-left</code>
     </li>
     <li>
-      and/or <code>has-icons-right</code>
+      和/或 <code>has-icons-right</code>
     </li>
   </ul>
-  <p>You also need to add a modifier on the <strong>icon</strong>:</p>
+  <p>您还需要添加一个修饰符到<strong>图标</strong>：</p>
   <ul>
     <li>
-      <code>icon is-left</code> if <code>has-icons-left</code> is used
+      如果用的 <code>has-icons-left</code> 就是 <code>icon is-left</code>
     </li>
     <li>
-      <code>icon is-right</code> if <code>has-icons-right</code> is used
+      如果用的 <code>has-icons-right</code> 就是 <code>icon is-right</code>
     </li>
   </ul>
-  <p>The size of the <strong>input</strong> will define the size of the icon container.</p>
+  <p><strong>input</strong> 的型号会定义图标容器的型号。</p>
 </div>
 
 {% include elements/snippet.html content=icons_example clipped=true %}
 
 <div class="content">
   <p>
-    You can append icons to <strong>select dropdowns</strong> as well.
+    您也可以附加图标到<strong>下拉选择框</strong>上。
   </p>
 </div>
 
@@ -943,7 +943,7 @@ variables_keys:
 
 <div class="content">
   <p>
-    If the control contains an icon, Bulma will make sure the icon remains <strong>centered</strong>, no matter the size of the input <em>or</em> of the icon.
+    如果控件包含图标，Bulma 不管输入框是大还是小<em>或者</em>图标是大还是小，都会确保图标保持<strong>居中</strong>。
   </p>
 </div>
 
@@ -955,56 +955,56 @@ variables_keys:
 
 {% include elements/snippet.html content=has_icons_large_example clipped=true %}
 
-{% include elements/anchor.html name="Form addons" %}
+{% include elements/anchor.html name="表单插件" %}
 
 <div class="content">
-  <p>If you want to <strong>attach controls</strong> together, use the <code>has-addons</code> modifier on the <code>field</code> container:</p>
+  <p>如果您想要<strong>附加控件</strong>到一起，在 <code>field</code> 容器上使用 <code>has-addons</code> 修饰符：</p>
 </div>
 
 {% include elements/snippet.html content=addons_example %}
 
 <div class="content">
-  <p>You can attach inputs, buttons, and dropdowns <strong>only</strong>.</p>
+  <p>您<strong>只能</strong>附加输入框（input）、按钮（button）和下拉菜单（dropdown）。</p>
 </div>
 
 <div class="content">
-  <p>It can be useful to append a <a href="{{site.url}}/documentation/elements/button#static-button">static button</a>.</p>
+  <p>附加一个<a href="{{site.url}}/documentation/elements/button#static-button">静态按钮</a>有是也很有用。</p>
 </div>
 
 {% include elements/snippet.html content=addons_static_example %}
 
 <div class="content">
-  <p>Use the <code>is-expanded</code> modifier on the element you want to fill up the remaining space (in this case, the input):</p>
+  <p>您可以在想让其占满剩余空间的元素（本例中是 input）上使用 <code>is-expanded</code> 修饰符完成构想：</p>
 </div>
 
 {% include elements/snippet.html content=addons_expanded_example horizontal=true more=true %}
 
 <div class="content">
-  <p>If you want a full width select dropdown, pair <code>control is-expanded</code> with <code>select is-fullwidth</code>.</p>
+  <p>如果您想让下拉选择框占满宽度，需要 <code>control is-expanded</code> 和 <code>select is-fullwidth</code> 配合使用。</p>
 </div>
 
 {% include elements/snippet.html content=addons_expanded_fullwidth_example %}
 
 <div class="content">
-  <p>Use the <code>has-addons-centered</code> or the <code>has-addons-right</code> modifiers to alter the <strong>alignment</strong>.</p>
+  <p>使用 <code>has-addons-centered</code> 或者 <code>has-addons-right</code> 修饰符可以修改<strong>对齐方式</strong>。</p>
 </div>
 
 {% include elements/snippet.html content=addons_center_example %}
 
 {% include elements/snippet.html content=addons_right_example %}
 
-{% include elements/anchor.html name="Form group" %}
+{% include elements/anchor.html name="表单组" %}
 
 <div class="content">
   <p>
-    If you want to <strong>group</strong> controls together, use the <code>is-grouped</code> modifier on the <code>field</code> container.
+    如果您想<strong>分组</strong>控件，在 <code>field</code> 容器上使用 <code>is-grouped</code> 修饰符。
   </p>
 </div>
 
 {% include elements/snippet.html content=group_example %}
 
 <div class="content">
-    Use the <code>is-grouped-centered</code> or the <code>is-grouped-right</code> modifiers to alter the <strong>alignment</strong>.
+    使用 <code>is-grouped-centered</code> 或者 <code>is-grouped-right</code> 修饰符来调整<strong>对齐方式</strong>。
   </p>
 </div>
 
@@ -1014,7 +1014,7 @@ variables_keys:
 
 <div class="content">
   <p>
-    Add the <code>is-expanded</code> modifier on the control element you want to <strong>fill up the remaining space</strong> with.
+    在控件元素上添加 <code>is-expanded</code> 修饰符会<strong>使其占满剩余空间</strong>。
   </p>
 </div>
 
@@ -1022,7 +1022,7 @@ variables_keys:
 
 <div id="form-group-multiline" class="content">
   <p>
-    Add the <code>is-grouped-multiline</code> modifier to allow controls to fill up <strong>multiple lines</strong>. This is ideal for a long list of controls.
+    添加 <code>is-grouped-multiline</code> 修饰符将允许控件使用<strong>多行</strong>。这对于很长的控件列表很有用。
   </p>
 </div>
 
@@ -1030,44 +1030,44 @@ variables_keys:
 
 <div class="message is-info">
   <div class="message-header">
-    <p>List of buttons</p>
+    <p>Button 列表</p>
   </div>
   <div class="message-body">
     <div class="content">
       <p>
-        If you only need a list of <em>buttons</em>, try out the new <code>buttons</code> class with which you can create a <a href="{{ site.url }}/documentation/elements/button/#list-of-buttons">multiline list of buttons</a>.
+        如果您需要一个 <em>Button</em> 列表，试试新的 <code>buttons</code> 类——您可以创建一个<a href="{{ site.url }}/documentation/elements/button/#list-of-buttons">多行的 Button 列表</a>。
       </p>
     </div>
   </div>
 </div>
 
-{% include elements/anchor.html name="Horizontal form" %}
+{% include elements/anchor.html name="水平表单" %}
 
 <div class="content">
-  <p>If you want a <strong>horizontal</strong> form control, use the <code>is-horizontal</code> modifier on the <code>field</code> container, in which you include:</p>
+  <p>如果您想要一个<strong>水平的</strong>表单控件，在 <code>field</code> 容器上使用 <code>is-horizontal</code> 修饰符，可包含：</p>
   <ul>
     <li>
-      <code>field-label</code> for the side label
+      <code>field-label</code> 侧边标签
     </li>
     <li>
-      <code>field-body</code> for the input/select/textarea container
+      <code>field-body</code> 是 input/select/textarea 的容器
     </li>
   </ul>
-  <p>You can use <code>is-grouped</code> or <code>has-addons</code> for the child elements.</p>
+  <p>您可以对子元素使用 <code>is-grouped</code> 或 <code>has-addons</code>。</p>
 </div>
 
 {% include elements/snippet.html content=horizontal_form_example horizontal=true more=true %}
 
 <div class="content">
   <p>
-    To preserve the <strong>vertical alignment</strong> of labels with each type and size of control, the <code>field-label</code> comes with <strong>4 size modifiers</strong>:
+    为了保证能<strong>垂直对齐</strong>标签和各种类型及型号的控件，<code>field-label</code> 有<strong>4 种型号修饰符</strong>：
   </p>
   <ul>
     <li>
       <code>is-small</code>
     </li>
     <li>
-      <code>is-normal</code> for any <code>input</code> or <code>button</code>
+      <code>is-normal</code> 可用于任何 <code>input</code> 或 <code>button</code>
     </li>
     <li>
       <code>is-medium</code>
@@ -1084,18 +1084,18 @@ variables_keys:
   Form elements can be <strong>customized</strong> using the following generic variables. Simply set one or multiple of these variables <em>before</em> importing Bulma. <a href="{{ site.url }}/documentation/overview/customize/">Learn how</a>.
 {% endcapture %}
 
-{% include elements/anchor.html name="Disabled form" %}
+{% include elements/anchor.html name="禁用表单" %}
 
 <div class="content">
   <p>
-    You can disable part or a whole form by wrapping a set of controls in a <strong>fieldset</strong> with a <code>disabled</code> HTML attribute.
+    您可以通过包裹一套控件在一个 <strong>fieldset</strong> 里再添加一个 <code>disabled</code> HTML 属性来禁用部分或者全部表单。
   </p>
 </div>
 
 {% include elements/snippet.html content=disabled_fields_example %}
 
 {% include components/variables.html
-  anchor_name='Control variables'
+  anchor_name='控件 variables'
   type='element'
   variables_keys=page.variables_control_keys
   custom_message=custom_message
@@ -1104,7 +1104,7 @@ variables_keys:
 %}
 
 {% include components/variables.html
-  anchor_name='Form variables'
+  anchor_name='表单 variables'
   type='element'
   variables_keys=page.variables_keys
   folder='elements'

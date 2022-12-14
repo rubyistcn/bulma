@@ -217,6 +217,13 @@
       "width": "160",
       "height": "34"
     },
+    "pillarwm": {
+      "name": "pillarwm",
+      "url": "https://pillarwm.com/",
+      "title": "Pillar",
+      "width": "150",
+      "height": "53"
+    },
     "sanyodigital": {
       "name": "sanyodigital",
       "url": "https://sanyodigital.com/",
@@ -347,7 +354,7 @@
     },
     "kasynohex": {
       "name": "kasynohex",
-      "url": "https://polskiekasynohex.org/",
+      "url": "https://kasynohex.com/",
       "title": "KasynoHEX Polska",
       "width": "128",
       "height": "45",
@@ -756,55 +763,6 @@
       "title": "online cricket betting",
       "width": "200",
       "height": "60"
-    },
-    "nodepositpokies": {
-      "name": "nodepositpokies",
-      "url": "https://nodepositpokies.com/",
-      "title": "nodepositpokies",
-      "width": "200",
-      "height": "40"
-    },
-    "codeless": {
-      "name": "codeless",
-      "url": "https://codeless.co/",
-      "title": "codeless",
-      "width": "156",
-      "height": "48",
-    },
-    "utansvensklicens": {
-      "name": "utansvensklicens",
-      "url": "https://utansvensklicens.casino/",
-      "title": "casino utan svensk licens",
-      "width": "89",
-      "height": "48",
-    },
-    "testarna": {
-      "name": "testarna",
-      "url": "https://www.testarna.se/casino/utan-svensk-licens/utlandska/",
-      "title": "Testarna",
-      "width": "196",
-      "height": "45",
-    },
-    "sportonlinebetting": {
-      "name": "sportonlinebetting",
-      "url": "https://sportonlinebetting.net/review/agent-no-wager-casino-review/",
-      "title": "Agent No Wager Casino",
-      "width": "89",
-      "height": "48",
-    },
-    "pillarwm": {
-      "name": "pillarwm",
-      "url": "https://pillarwm.com/financial-advisor/top-financial-advisors-near-me/",
-      "title": "Pillar Wealth",
-      "width": "150",
-      "height": "53",
-    },
-    "istartips": {
-      "name": "istartips",
-      "url": "https://istar.tips/",
-      "title": "istartips",
-      "width": "173",
-      "height": "48",
     }
   },
   "home": [
@@ -832,11 +790,12 @@
     "listcasino",
     "slotsempire",
     "realcasinoscanada",
-    "cusl",
+    "jrop",
     "casinoutansvensklicens",
     "casinozondercruks",
-    "nodepositpokies",
+    "newbitcoincasinos",
     "casinoenlineahex",
+    "everycasinobonus",
     "limeup",
     "kasinohai",
     "surebet",
@@ -851,13 +810,7 @@
     "stayatcasinos",
     "bluechip",
     "tradingwolf",
-    "1xbet",
-    "codeless",
-    "utansvensklicens",
-    "testarna",
-    "sportonlinebetting",
-    "pillarwm",
-    "istartips"
+    "1xbet"
   ],
   "footer": ["polygon", "kasinohai", "casinoutanlicens"]
 }
