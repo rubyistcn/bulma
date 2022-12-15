@@ -7,5 +7,5 @@ docs_file:     "bulma-docs.min"
 
 markdown:      kramdown
 permalink:     pretty
-url:           https://railsway.cn/bulma
+url:           https://docs.rubyist.cn/bulma
 exclude:       ['icons', 'node_modules', 'templates', '.babelrc', 'bulma-docs.sass', 'docker-compose.yml', 'package.json', 'yarn.lock']
